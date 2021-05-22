@@ -1,5 +1,3 @@
-package TASK3;
-
 import java.util.Scanner;
 
 class PhoneBook{

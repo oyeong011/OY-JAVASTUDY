@@ -1,5 +1,3 @@
-package TASK3;
-
 import java.util.Scanner;
 
 class Dictionary{
@@ -24,7 +22,6 @@ public class DicApp {
         Dictionary dic = new Dictionary();
         Scanner sc = new Scanner(System.in);
         System.out.println("한영 단어 검색 프로그램입니다.");
-
         while (true){
             System.out.print("한글 단어?");
             String JY = sc.next();
@@ -33,5 +30,6 @@ public class DicApp {
             }
             dic.kor2Eng(JY);
         }
+        sc.close();
     }
 }

@@ -1,5 +1,3 @@
-package TASK3;
-
 import java.util.Scanner;
 
 public class guaje_12 {
@@ -23,6 +21,7 @@ public class guaje_12 {
                 continue;
             }
         }
+        sc.close();
     }
 }
 class Status {

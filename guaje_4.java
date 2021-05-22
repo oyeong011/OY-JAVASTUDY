@@ -1,6 +1,3 @@
-package TASK3;
-
-
 public class guaje_4 {
     public static void main(String[] args) {
         Rectangle r = new Rectangle(2,2,8,7);
