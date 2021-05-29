@@ -7,7 +7,6 @@ abstract class PairMap{
     abstract int length();
 }
 class Dictionary extends PairMap{
-
     Dictionary(int number){
         keyArray = new String[number];
         valueArray = new String[number];
